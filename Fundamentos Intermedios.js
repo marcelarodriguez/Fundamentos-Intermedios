@@ -125,5 +125,16 @@ function sigma(x){
   z = doblepar([4,'Ulysses', 42,'false','grande', 22, 'juancarlos']);
   console.log(z);
 
+  //ejercicio fibonacci recursivo
+
+  function fibonaccirecursivo(x){
+    if(x==0 || x==1){
+      return x
+    }
+    return (fibonaccirecursivo(x-2)+fibonaccirecursivo(x-1))
+  }
+ z=fibonaccirecursivo(10);
+ console.log(z);
+
 
 
